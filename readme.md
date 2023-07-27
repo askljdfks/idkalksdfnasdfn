@@ -2,7 +2,6 @@ Age Predictor Model
 
 This model is used to find out what finger you are pointing. It is trained on an imagenet Resnet-18 model using transfer learning. 
 
-![A computer analyzes a face.](https://imgur.com/HeyVfsW)
 
 ## The Algorithm
 The algorithim is used by taking a picture and using that file to upload it to the code. It uses a 2GB Jetson Nano, and so it uses it a preflashed SD card flashed from the NVIDIA webpage. It uses a facenet to find a person's hand and finger in the image, then it crops the image to just hold the finger. It then sends the picture of the finger to the transfer learning model. The transfer model then predicts what finger you are pointing. It will try to guess what finger it is to the best of its abilities. Then it will print out what finger you are pointing is it is confident. It is up to the user to interepret the information.
