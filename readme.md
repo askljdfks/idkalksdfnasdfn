@@ -20,4 +20,4 @@ imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output
 
 7. Now go to the files section of the VSCODE and find what you named each image
 
-[View a video explanation here](video link)
+[View a video explanation here]((https://youtu.be/i4QWmjPIluw)https://youtu.be/i4QWmjPIluw)
